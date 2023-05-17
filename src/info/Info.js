@@ -6,7 +6,7 @@ export let colors = ["red", "grey"];
 
 export const info = {
     firstName: "Yaseen",
-    lastName: "Al koja",
+    lastName: "Alkoja",
     initials: "YAS", 
     position: "a Full Stack Developer",
     selfPortrait: self, 
@@ -55,6 +55,69 @@ export const info = {
 
     ],
     bio: "Am a Junior Full Stack developer, seeking to be a senior FSD one day.🕶 Highly enthusiastic, not patient, hard working and great work ethics, 🦾 Seeking to start my journey in a company in which I could extend my knowledge and challenge myself daily!",
+    education: [
+        {
+          name: "Primary and High School",
+          date: "2009-2014",
+          where: "Cambridge High School",
+        },
+        {
+          name: "High School",
+          date: "2014-2016",
+          where: "IES Severo Ochoa",
+        },
+        {
+          name: "Microcomputer systems and networks",
+          date: "2018-2020",
+          where: "IES Clara del Rey",
+        },
+        {
+          name: "Full Stack Developer",
+          date: "2023",
+          where: "UpgradeHub BootCamp",
+        },
+      ],
+      experience: [
+        {
+          name: "Freelancer",
+          date: "01/01/2023 – Nowadays",
+          where: "No Where to be exact",
+          description:
+            "Full Stack Developer, working on personal and professional projects.",
+        },
+        {
+          name: "ICT Tecnician",
+          date: "04/2021-06/2021",
+          where: "Escuela Ideo",
+          description:
+            "I did my internship in the middle grade of microcomputer systems and networks. My tasks were focused on solving hardware and software problems. I worked with Google OS and Docker platform to perform OS installations (Linux) locally in several classrooms remotely. Cleaning computers and managing returns in case the equipment was not working.",
+        },
+        {
+          name: "Manager at Papa Johns",
+          date: "11/2018-01/2021",
+          where: "Papa Johns",
+          description:
+            "Perform daily, weekly and monthly inventories.calculate monthly budgets on annual and monthly sales.assign schedules to employees.manage complicated situations giving quick and effective solutions.",
+        },
+      ],
+      language: [
+        {
+          language: "Arabic",
+          wrlevel: "Native",
+          splevel: "Native",
+        },
+        {
+          language: "English",
+          wrlevel: "Native",
+          splevel: "Native",
+        },
+        {
+          language: "Spanish",
+          wrlevel: "Native",
+          splevel: "Native",
+        },
+      ],
+
     skills:
         {
             proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'NodeJs','linux','Angular','MongoDB','PHP','MySql','Symfony','tailwindcss'],
