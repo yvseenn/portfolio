@@ -1,7 +1,7 @@
 import React from "react";
 import Style from "./About.module.scss";
 import Terminal from "./Terminal";
-import { Box } from "@mui/material";
+import { Box, Button } from "@mui/material";
 import { info } from "../../info/Info";
 
 export default function About() {
@@ -181,6 +181,13 @@ export default function About() {
       </>
     );
   }
+  function handleDownloadPDF() {
+    const cvLink = "https://drive.google.com/file/d/1H2uJcPFwi64gmD9PfRDvIXd-9lC5YJcW/view?usp=share_link";
+    const link = document.createElement("a");
+    link.href = cvLink;
+    link.download = "resume.pdf";
+    link.click();
+  }
 
   return (
     <Box
@@ -195,6 +202,14 @@ export default function About() {
       <Terminal text={lanText()} />
       <Terminal text={skillsText()} />
       <Terminal text={miscText()} />
+      <Button
+        variant="contained"
+        color="primary"
+        onClick={handleDownloadPDF}
+        style={{ marginTop: "2rem" }}
+      >
+        Download PDF
+      </Button>
     </Box>
   );
 }
