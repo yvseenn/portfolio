@@ -1,6 +1,7 @@
 import self from '../img/giphy.gif'
 import pokedex from "../img/pokedex.PNG"
 import rickAndMorty from "../img/rick.PNG"
+import flexShop from "../img/miTiendaFlex.png"
 
 export let colors = ["red", "grey"];
 
@@ -54,7 +55,7 @@ export const info = {
 
 
     ],
-    bio: "Am a Junior Full Stack developer, seeking to be a senior FSD one day.🕶 Highly enthusiastic, not patient, hard working and great work ethics, 🦾 Seeking to start my journey in a company in which I could extend my knowledge and challenge myself daily!",
+    bio: "Am a Junior Full Stack developer, seeking to be a senior FSD one day.🕶 Highly enthusiastic, patient, hard working and great work ethics, 🦾 Seeking to start my journey in a company in which I could extend my knowledge and challenge myself daily!",
     education: [
         {
           name: "Primary and High School",
@@ -155,6 +156,12 @@ export const info = {
             live: "https://rick-and-morty-ncr3lzhik-yvseenn.vercel.app/",
             source: "https://github.com/yvseenn/rickAndMortyApi",
             image: rickAndMorty
-        }
+        },
+        {
+          title: "Flex Shop",
+          live: "https://yvseenn.github.io/mitiendaflex/",
+          source: "https://github.com/yvseenn/mitiendaflex",
+          image: flexShop
+      }
     ]
 }

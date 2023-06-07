@@ -182,7 +182,7 @@ export default function About() {
     );
   }
   function handleDownloadPDF() {
-    const cvLink = "https://drive.google.com/file/d/1H2uJcPFwi64gmD9PfRDvIXd-9lC5YJcW/view?usp=share_link";
+    const cvLink = "https://drive.google.com/file/d/1IcKCPWgvnE15Uk8ERN44zbv2AXjv3Os8/view?usp=drive_link";
     const link = document.createElement("a");
     link.href = cvLink;
     link.download = "resume.pdf";
@@ -208,7 +208,7 @@ export default function About() {
         onClick={handleDownloadPDF}
         style={{ marginTop: "2rem" }}
       >
-        Download PDF
+        Open CV
       </Button>
     </Box>
   );
