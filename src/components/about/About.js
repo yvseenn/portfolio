@@ -6,7 +6,6 @@ import { info } from "../../info/Info";
 
 export default function About() {
   const firstName = info.firstName.toLowerCase();
-
   function aboutMeText() {
     return (
       <>
