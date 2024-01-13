@@ -42,12 +42,11 @@ export default function BaseLayout() {
                </Routes>
             </Grid>
             <Grid item>
-               <Box component={'footer'} display={'flex'} flexDirection={'column'} alignItems={'center'}
-                    py={'1.5rem'} sx={{opacity: 0.7}} width={'100%'}>
-                  <p> created by <a href={'https://github.com/yvseenn'}>yaseen</a></p>
-                  <p>&copy; 2023</p>
-               </Box>
-            </Grid>
+    <Box component={'footer'} display={'flex'} flexDirection={'column'} alignItems={'center'} py={'1.5rem'} sx={{ opacity: 0.7 }} width={'100%'}>
+        <p> created by <a href={'https://github.com/yvseenn'} style={{ marginTop: '8px' }}>yaseen</a></p>
+        <p>&copy; 2023</p>
+    </Box>
+</Grid>
          </Grid>
       </Box>
    )

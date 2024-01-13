@@ -181,7 +181,7 @@ export default function About() {
     );
   }
   function handleDownloadPDF() {
-    const cvLink = "https://drive.google.com/file/d/1IcKCPWgvnE15Uk8ERN44zbv2AXjv3Os8/view?usp=drive_link";
+    const cvLink = "https://drive.google.com/file/d/1FGcAyYrQv9rLwnIzQBPF4_5FqL6TN7fQ/view?usp=sharing";
     const link = document.createElement("a");
     link.href = cvLink;
     link.download = "resume.pdf";
