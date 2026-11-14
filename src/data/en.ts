@@ -3,9 +3,9 @@ import type { Content } from './types';
 export const en: Content = {
   lang: 'en',
   meta: {
-    title: 'Yaseen Al Koja — IT Administrator',
+    title: 'Yaseen Al Koja — IT Manager',
     description:
-      'IT Administrator at Think Ahead Education. Zoho One, Google Workspace and Jamf; automation and internal tool development.',
+      'IT Manager at Think Ahead Education. Zoho One, Google Workspace and Jamf; automation and internal tool development.',
   },
   nav: {
     work: 'What I do',
@@ -17,7 +17,7 @@ export const en: Content = {
     skip: 'Skip to content',
   },
   hero: {
-    role: 'IT Administrator · Think Ahead Education',
+    role: 'IT Manager · Think Ahead Education',
     title: "I make an education group's technology work as one system.",
     lead: 'I run all the technology for a group with several brands. My job is to stop it being a collection of separate tools.',
     brands: [
@@ -83,7 +83,7 @@ export const en: Content = {
     heading: 'Experience',
     jobs: [
       {
-        role: 'IT Administrator',
+        role: 'IT Manager',
         where: 'Think Ahead Education',
         date: 'Present',
         text: "Responsible for the group's technology: CRM and processes, identity and devices, internal development, infrastructure, security and AI.",

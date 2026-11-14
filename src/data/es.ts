@@ -3,9 +3,9 @@ import type { Content } from './types';
 export const es: Content = {
   lang: 'es',
   meta: {
-    title: 'Yaseen Al Koja — Administrador de IT',
+    title: 'Yaseen Al Koja — IT Manager',
     description:
-      'Administrador de IT en Think Ahead Education. Zoho One, Google Workspace y Jamf; automatización y desarrollo de herramientas internas.',
+      'IT Manager en Think Ahead Education. Zoho One, Google Workspace y Jamf; automatización y desarrollo de herramientas internas.',
   },
   nav: {
     work: 'Qué hago',
@@ -17,7 +17,7 @@ export const es: Content = {
     skip: 'Saltar al contenido',
   },
   hero: {
-    role: 'Administrador de IT · Think Ahead Education',
+    role: 'IT Manager · Think Ahead Education',
     title: 'Hago que la tecnología de un grupo educativo funcione como un solo sistema.',
     lead: 'Llevo toda la tecnología de un grupo con varias marcas. Mi trabajo es que deje de ser un conjunto de herramientas sueltas.',
     brands: [
@@ -83,7 +83,7 @@ export const es: Content = {
     heading: 'Experiencia',
     jobs: [
       {
-        role: 'Administrador de IT',
+        role: 'IT Manager',
         where: 'Think Ahead Education',
         date: 'Actualidad',
         text: 'Responsable de la tecnología del grupo: CRM y procesos, identidad y dispositivos, desarrollo interno, infraestructura, seguridad e IA.',
