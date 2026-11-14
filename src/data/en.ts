@@ -60,7 +60,6 @@ export const en: Content = {
         text: 'I build the tools that are not worth buying.',
         built: [
           'Time-tracking app',
-          'SEPA direct debit batch generator',
           'Dashboards for management',
           "The group's websites",
         ],

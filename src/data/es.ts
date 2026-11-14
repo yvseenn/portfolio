@@ -60,7 +60,6 @@ export const es: Content = {
         text: 'Construyo las herramientas que no compensa comprar.',
         built: [
           'App de control horario',
-          'Generador de remesas SEPA',
           'Cuadros de mando para dirección',
           'Las webs del grupo',
         ],
